@@ -64,7 +64,7 @@ const Navbar = () => {
       </ul>
       <Link style={{ textDecoration: "none" }} to="/">
         <div className="nav-logo">
-          <p>SKIPER</p>
+          <p>X-SHOP</p>
 
           <img src={logo} alt="لوگو وبسایت" />
         </div>
