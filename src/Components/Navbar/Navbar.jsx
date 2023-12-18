@@ -1,18 +1,24 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("shop")
+  const [menu, setMenu] = useState("shop");
   return (
     <div className="navbar">
       <div className="nav-login-cart">
-        <div className="cart-icon">
-          <img src={cart_icon} alt=" ایکون سبد خرید" />
-          <div className="nav-cart-count">0</div>
-        </div>
-        <button>ورود</button>
+        <Link style={{ textDecoration: "none" }} to="/cart">
+          <div className="cart-icon">
+            <img src={cart_icon} alt=" ایکون سبد خرید" />
+            <div className="nav-cart-count">0</div>
+          </div>
+        </Link>
+
+        <Link style={{ textDecoration: "none" }} to="/login">
+          <button>ورود</button>
+        </Link>
       </div>
       <ul className="nav-menu">
         <li
@@ -20,7 +26,9 @@ const Navbar = () => {
             setMenu("shop");
           }}
         >
-          فروشگاه
+          <Link style={{ textDecoration: "none" }} to="/">
+            فروشگاه
+          </Link>
           {menu === "shop" ? <hr /> : <></>}
         </li>
         <li
@@ -28,7 +36,9 @@ const Navbar = () => {
             setMenu("shose");
           }}
         >
-          کفش
+          <Link style={{ textDecoration: "none" }} to="/shoes">
+            کفش
+          </Link>
           {menu === "shose" ? <hr /> : <></>}
         </li>
         <li
@@ -36,7 +46,9 @@ const Navbar = () => {
             setMenu("pants");
           }}
         >
-          شلوار
+          <Link style={{ textDecoration: "none" }} to="/pants">
+            شلوار
+          </Link>
           {menu === "pants" ? <hr /> : <></>}
         </li>
         <li
@@ -44,16 +56,21 @@ const Navbar = () => {
             setMenu("shirt");
           }}
         >
-          پیراهن
+          <Link style={{ textDecoration: "none" }} to="/shirt">
+            پیراهن
+          </Link>
           {menu === "shirt" ? <hr /> : <></>}
         </li>
       </ul>
-      <div className="nav-logo">
-        <img src={logo} alt="لوگو وبسایت" />
-        <p>SKIPER</p>
-      </div>
+      <Link style={{ textDecoration: "none" }} to="/">
+        <div className="nav-logo">
+          <p>SKIPER</p>
+
+          <img src={logo} alt="لوگو وبسایت" />
+        </div>
+      </Link>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
