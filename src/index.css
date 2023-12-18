@@ -6,9 +6,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Vazir-FD';
 }
-
+@font-face {
+  font-family:"Vazir-FD";
+  src: url("../public/fonts/Vazir-FD.woff");
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
