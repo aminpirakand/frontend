@@ -3,9 +3,9 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  height: 140vh;
+  margin-bottom: 60px;
   margin-top: 95px;
- background: linear-gradient(180deg,#ffffff ,#ffaaaa 90%);
+ background: linear-gradient(180deg,#ffaaaa ,#ffffff 100%);
 }
 .new-collections h1{
   margin-top: 30px;
@@ -15,10 +15,10 @@
 }
 .new-collections hr{
   width: 200px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #000000;
   margin-bottom: 40px;
-  height: 6px;
-  border-radius: 10px;
-  background-color: #252525;
 
 }
 .collections{
