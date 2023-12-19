@@ -6,6 +6,7 @@
   border: 2px solid black;
   border-radius: 15px;
   cursor: pointer;
+  background-color: white;
 }
 .item img {
   border-top-right-radius: 15px;
