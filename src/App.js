@@ -7,6 +7,7 @@ import Product from './Pages/Product';
 import LoginSingup from './Pages/LoginSingup';
 import Cart from './Pages/Cart';
 import Nopages from './Pages/Nopages';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
           <Route path="/login" element={<LoginSingup />} />
           <Route path="*" element={<Nopages />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
