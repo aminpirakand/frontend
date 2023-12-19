@@ -7,7 +7,7 @@
   height: 40vh;
   margin: auto;
   margin-top: 70px;
-  background: linear-gradient(180deg, #ffaaaa, #ffffff 90%);
+/*   background: linear-gradient(180deg, #ffaaaa, #ffffff 90%); */
   border-radius: 15px;
   white-space: nowrap;
 }
