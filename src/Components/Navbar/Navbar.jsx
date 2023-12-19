@@ -36,8 +36,8 @@ const Navbar = () => {
             setMenu("shose");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/shoes">
-            کفش
+          <Link style={{ textDecoration: "none" }} to="/womens">
+            زنانه
           </Link>
           {menu === "shose" ? <hr /> : <></>}
         </li>
@@ -46,8 +46,8 @@ const Navbar = () => {
             setMenu("pants");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/pants">
-            شلوار
+          <Link style={{ textDecoration: "none" }} to="/mens">
+            مردانه
           </Link>
           {menu === "pants" ? <hr /> : <></>}
         </li>
@@ -56,8 +56,8 @@ const Navbar = () => {
             setMenu("shirt");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/shirt">
-            پیراهن
+          <Link style={{ textDecoration: "none" }} to="/kids">
+            بچه گانه
           </Link>
           {menu === "shirt" ? <hr /> : <></>}
         </li>
