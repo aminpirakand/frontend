@@ -1,7 +1,7 @@
 .header{
   margin-top: 85px;
   height: 350px;
- /*  background: linear-gradient(180deg,#ffffff ,#ffaaaa 100%); */
+  background-color: #F8E8EE;
   display: flex;
   justify-content: space-between;
 }
@@ -43,8 +43,8 @@ width: 200px;
 height: 60px;
 border-radius: 35px;
 margin-top: 30px;
-background-color: #ff4141;
-color: white;
+background-color: #F2BED1;
+color: black;
 white-space: nowrap;
 font-size: 16px;
 font-weight: 500;

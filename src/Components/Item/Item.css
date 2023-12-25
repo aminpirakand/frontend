@@ -3,16 +3,17 @@
   width: 200px;
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
   border-radius: 15px;
-  cursor: pointer;
-  background-color: white;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.514);
+  cursor: pointer; 
 }
 .item img {
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 }
 .item p {
+  
+  color: black;
   margin-top: 16px;
   padding-right: 5px;
 }
@@ -23,7 +24,9 @@
   padding: 10px;
 }
 .item-price-new {
-  background-color: rgba(179, 250, 170, 0.664);
+  display: flex;
+  justify-content: end;
+  background-color: #F9F5F6;
   color: black;
   font-size: 18px;
   font-weight: 600;
@@ -31,7 +34,9 @@
   border-radius: 5px;
 }
 .item-price-old {
-  background-color: rgb(247, 162, 162);
+  display: flex;
+  justify-content: end;
+  background-color:#F9F5F6;
   color: rgb(27, 27, 27);
   font-size: 18px;
   font-weight: 500;
