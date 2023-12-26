@@ -6,7 +6,7 @@ const Item = (props) => {
     <>
       <Link style={{ textDecoration: "none" }} to={`/product/${props.id}`}>
         <div className="item">
-          <img src={props.image} alt="" />
+          <img onClick={window.scrollTo(0,0)} src={props.image} alt="" />
           <p>{props.name}</p>
           <div className="item-prices">
             <div className="item-price-new">{props.new_price + "  "}ريال</div>
