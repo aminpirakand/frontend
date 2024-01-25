@@ -1,7 +1,7 @@
 .header{
   margin-top: 85px;
   height: 350px;
-  background-color: #F8E8EE;
+  background-color: white;
   display: flex;
   justify-content: space-between;
 }
@@ -16,13 +16,11 @@
 }
 .header-left h2{
   color: #000000;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 20px;
 }
 .header-left p{
   color: #000000;
   font-size: 18px;
-  font-weight: 400;
 
 }
 
@@ -40,14 +38,12 @@ justify-content: center;
 align-items: center;
 gap: 15px;
 width: 200px;
-height: 60px;
-border-radius: 35px;
+height: 46px;
 margin-top: 30px;
-background-color: #F2BED1;
+background-color: yellow;
 color: black;
 white-space: nowrap;
 font-size: 16px;
-font-weight: 500;
 cursor: pointer;
 transition: opacity 0.5s;
 }
